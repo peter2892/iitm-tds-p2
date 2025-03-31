@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "server.py"
     }
-  ]
+  ],
+  "functions": {
+    "server.py": {
+      "maxRequestBodySize": "10mb"
+    }
+  }
 }
